@@ -8,37 +8,37 @@ The system enables CRUD operations for products and categories, secure user auth
 
 ## Key Technologies Covered
 
-Python – Core programming language for backend logic and API implementation.
+- Python – Core programming language for backend logic and API implementation.
 
-Django – Framework for rapid development and clean architectural patterns.
+- Django – Framework for rapid development and clean architectural patterns.
 
-Django REST Framework (DRF) – For building RESTful APIs with authentication, permissions, and pagination.
+- Django REST Framework (DRF) – For building RESTful APIs with authentication, permissions, and pagination.
 
-GraphQL – (Optional extension) Used to demonstrate flexible data querying capabilities.
+- GraphQL – (Optional extension) Used to demonstrate flexible data querying capabilities.
 
-Docker – Containerization for consistent deployment across environments.
+- Docker – Containerization for consistent deployment across environments.
 
-CI/CD Pipelines – Automated testing, building, and deployment using GitHub Actions or Jenkins.
+- CI/CD Pipelines – Automated testing, building, and deployment using GitHub Actions or Jenkins.
 
 ## Important Backend Development Concepts
 
 Database Design:
 
-Applied normalization and indexing to optimize query performance.
+1. Applied normalization and indexing to optimize query performance.
 
-Designed relational schemas for users, categories, and products using PostgreSQL.
+2. Designed relational schemas for users, categories, and products using PostgreSQL.
 
 Asynchronous Programming:
 
-Introduced async views and tasks where appropriate (e.g., background email notifications or external API calls).
+1. Introduced async views and tasks where appropriate (e.g., background email notifications or external API calls).
 
-Leveraged Django’s async capabilities for improved performance under load.
+2. Leveraged Django’s async capabilities for improved performance under load.
 
 Caching Strategies:
 
-Implemented caching for frequently accessed endpoints (e.g., product listings).
+1. Implemented caching for frequently accessed endpoints (e.g., product listings).
 
-Used Redis (or Django cache framework) to reduce database load and response time.
+2. Used Redis (or Django cache framework) to reduce database load and response time.
 
 ## Challenges Faced and Solutions Implemented
 Challenge	Solution Implemented
