@@ -8,6 +8,6 @@ class User(AbstractUser):
     password = models.CharField(max_length=100, unique=True)
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
-    dateJoined = models.BooleanField(default=False)
+    dateJoined = models.DateTimeField(auto_now_add=True)
     class Meta:
         db_table = 'users'
