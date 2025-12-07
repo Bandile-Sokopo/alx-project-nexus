@@ -146,7 +146,7 @@ SIMPLE_JWT = {
     #]
 #}
 
-WSGI_APPLICATION = 'ecommerce_backend.wsgi.application'
+WSGI_APPLICATION = 'config.wsgi.application'
 
 env = environ.Env()
 environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
