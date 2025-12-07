@@ -4,7 +4,7 @@ services:
     env: python
     region: frankfurt
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn ecommerce_backend.wsgi"
+    startCommand: "gunicorn ecommerce_backend.ecommerce_backend.wsgi"
     plan: free
     envVars:
       - key: SECRET_KEY
